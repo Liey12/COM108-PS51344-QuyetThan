@@ -1,8 +1,8 @@
 # NHẬT KÝ THỰC HIỆN LAB 5 (LOGBOOK)
 
-* **Họ và tên:** 
-* **Mã sinh viên:** 
-* **Link Repository cá nhân:** 
+* **Họ và tên:** Nguyen Quyet Thang
+* **Mã sinh viên:** PS51344
+* **Link Repository cá nhân:** https://github.com/Liey12/COM108-PS51344-QuyetThan.git
 
 ---
 

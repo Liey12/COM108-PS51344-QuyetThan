@@ -32,13 +32,12 @@ int main() {
 
 // --- SINH VIÊN VIẾT CODE CỦA HÀM DƯỚI ĐÂY ---
 int thanhToanHoaDon(float *soDuVi, float tongTien, float tyLeHoan, float *tienHoan) {
-    if (*soDuVi >= tongTien) {
-        *soDuVi -= tongTien;
+    if (*soDuVi < tongTien) { 
         *tienHoan = 0.0f;
-        return 0; // Thanh toán thành công
+        return 0; // Thanh toán thất bại
     }
     *tienHoan = tongTien * (tyLeHoan / 100.0f);
-    *soDuVi -= (tongTien - *tienHoan);
+    *soDuVi = *soDuVi - tongTien + *tienHoan;
     // TODO: Viết code thanh toán và cập nhật số dư, tiền hoàn (dùng con trỏ)
     // Trả về 1 nếu thành công, 0 nếu thất bại (không đủ tiền)
     
